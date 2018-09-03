@@ -5,6 +5,7 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	color: white;
+	margin: 0;
 }
 
 h1#title {
@@ -32,7 +33,28 @@ h2 {
 	font-size: 24px;
 	line-height: 2.8em;
 }
-
+.top{
+	background-color: white;
+	width: 100%;
+}
+.topnav {
+	float: right;
+	margin-top: 0px;
+	list-style: none;
+}
+.topnav li{
+	display: inline-block;
+}
+.topnav li a{
+	color: black;
+	padding: 5px 20px;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	letter-spacing: 1px;
+}
+.topnav li a:hover{
+	opacity: 0.7;
+}
 a {
 	text-decoration: none;
 	color: black;
@@ -95,7 +117,18 @@ p.small {
 	background-color: grey;
 	
 }
-
+p#button{
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 750;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: grey;
+}
 .login-box button:hover {
 	opacity: 0.7;
 }
@@ -218,4 +251,16 @@ p.small {
 	padding-bottom: 30px;
 	border-radius: 5px;
 	text-align: center;
+}
+.container{
+	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	opacity: 0.7;
+}
+.post{
+	float: left;
+}
+.quests{
+	float: right;
 }
