@@ -33,20 +33,24 @@ h2 {
 	font-size: 24px;
 	line-height: 2.8em;
 }
-.top{
-	background-color: white;
-	width: 100%;
-}
+
+
 .topnav {
+	width: 100%;
 	float: right;
-	margin-top: 0px;
+	margin-top: 0;
+	padding: 0;
 	list-style: none;
+	background-color: black;
 }
 .topnav li{
 	display: inline-block;
+	float:right; 
+	margin-left:30px;
+
 }
 .topnav li a{
-	color: black;
+	color: white;
 	padding: 5px 20px;
 	text-transform: uppercase;
 	font-size: 0.9em;
@@ -57,10 +61,10 @@ h2 {
 }
 a {
 	text-decoration: none;
-	color: black;
+	color: blue;
 }
 a:hover {
-	color: grey;
+	color: black;
 }	
 
 p.small {
@@ -252,7 +256,7 @@ p#button{
 	border-radius: 5px;
 	text-align: center;
 }
-.container{
+.cont{
 	width: 100%;
 	overflow: hidden;
 	background-color: black;
@@ -260,7 +264,37 @@ p#button{
 }
 .post{
 	float: left;
+	padding-left: 30px;
 }
 .quests{
 	float: right;
+	 margin-bottom:30px; 
+	 padding-right:40px;
 }
+table{
+	width:100%; 
+	border-collapse:collapse; 
+	table-layout:auto; 
+	vertical-align:top; 
+	margin-bottom:15px; 
+	border:1px;
+}
+table th{
+	color:black; 
+	background-color:grey; 
+	border:1px;
+	border-collapse:collapse; 
+
+	table-layout:auto; 
+}
+table tbody tr.light{color:black; background-color:white;}
+table tbody tr.dark{color:black; background-color:grey;}
+table th, table tbody td{padding:5px; border-collapse:collapse;}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
