@@ -5,18 +5,18 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-	<div>
-		<ul class="nav">
-			<li><a href="index.html">HOME</a></li>
-			<li><a href="login.html">LOGOUT</a></li>
-		</ul>
+	<div class="topnav">
+		<img id = "logo" class="view" src="./css/stack1.png" style="width: 80px;height: 45px" alt="logo" />Stackoverflow-lite
+		<a href="login.html" id ="logout">LOGOUT</a>
+		<a href="index.html"id = "home">HOME</a>
+		<a href="profile.html"id = "profile">PROFILE</a>
 	</div>
 	<div class="cont">
 		<div class="post">
 
 			<p>
 				<label for="title"><small>Title</small></label>
-				<input type="text" name="title" value="" size="22" />
+				<input type="text" name="title" id="title-1" value="" size="22" />
 			</p>
 			<br/>
 			<p>
@@ -25,7 +25,28 @@
 			</p>
 			<p><input name="submit" type="submit" id="submit" onclick="location.href='view_quest.html';" value="Submit" /></p>
 		</div>
-	</div>
+		<div class="quests">
+			<table>
+				<tbody>
+					<tr class="light">
+						<td>
+							<h4>What is java programming language?</h4>
+							<p>It is a high level, robust, dynamic programming language</p>
+							<button>Delete</button>
+						</td>
+						
+					</tr>
+					<tr class="dark">
+						<td>
+							<h4>How to create a virtual environment on linux</h4>
+							<p>Open your terminal, <br/>then type virtualenv env or you can give it a different name <br/> then activate it using the following command; source env/bin/activate</p>
+							<button>Delete</button>
+						</td>
+						
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	 <div class="footer">
 	 	<p> Stackoverflow-lite</p>
 	 </div>
