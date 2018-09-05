@@ -62,14 +62,36 @@ h2 {
 a {
 	text-decoration: none;
 	color: blue;
-}
-a:hover {
-	color: black;
 }	
 
 p.small {
 	font-size: 0.8em;
 	margin: 20px 0 0;
+	color: black;
+}
+.topnav {
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+.topnav .icon {
+    display: none;
 }
 
 .login-box {
@@ -256,6 +278,10 @@ p#button{
 	border-radius: 5px;
 	text-align: center;
 }
+#style {
+	font-weight: 950;
+	font-size: 1.2em;
+}
 .cont{
 	width: 100%;
 	overflow: hidden;
@@ -264,12 +290,15 @@ p#button{
 }
 .post{
 	float: left;
-	padding-left: 30px;
+	padding-left: 45px;
+	border-color: white;
 }
 .quests{
 	float: right;
-	 margin-bottom:30px; 
-	 padding-right:40px;
+	 margin-bottom:30px;
+	 margin-top: 15px;
+	 padding-right:55px;
+	 border-color: white;
 }
 table{
 	width:100%; 
@@ -298,3 +327,51 @@ table th, table tbody td{padding:5px; border-collapse:collapse;}
    background-color: white;
    color: black;
    text-align: center;
+}
+button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: black;
+	left:55%;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 750;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: lightblue;
+
+}
+#submit {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: black;
+	left:55%;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 750;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: lightblue;
+}
+#title-1 {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	left:55%;
+	padding: 10px;
+	background-color: lightblue;
+}
+#text {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	left:55%;
+	padding: 10px;
+	background-color: lightblue;
+}
+.avatar{
+	width: 35%;
+	height: 35%;
+}
