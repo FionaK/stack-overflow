@@ -5,19 +5,17 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-	<div class="top-a">
-		<ul class="topnav">
-			<li><a href="login.html">Login</a></li>
-			<li><a href="login.html">Logout</a></li>
-			<li><a href="profile.html">Profile</a></li>
-		</ul>
-	</div>
-
+	<div class="topnav">
+            <img id = "logo" class="view" src="./css/stack1.png" style="width: 80px;height: 45px" alt="logo" />
+            Stackoverflow-lite
+            <a href="login.html" id ="login">LOGIN</a>
+            <a href="profile.html">PROFILE</a>
+</div>
 	<div class="cont">
 		<div class="post">
 			<p>
 				<label for="title"><small>Title</small></label>
-				<input type="text" name="title" value="" size="22" />
+				<input type="text" name="title" id="title-1" value="" size="22" />
 			</p>
 			<p>
 				<textarea name="text" id="text" cols="70%" rows="15"></textarea>
@@ -43,6 +41,7 @@
 						</tr>
 				</tbody> 
 			</table>
+
 			<h1>Questions with answers</h1>
 			<table>
 				<tbody>
