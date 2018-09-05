@@ -5,15 +5,41 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-	<div class="top">
-		<ul class="topnav">
-			<li><a href="login.html">Logout</a></li>
-			<li><a href="index.html">Home</a></li>
-		</ul>
-	</div>
+	<div class="topnav">
+        <img id = "logo" class="view" src="./css/stack1.png" style="width: 80px;height: 45px" alt="logo" />Stackoverflow-lite
+        <a href="login.html" id ="logout">LOGOUT</a>
+        <a href="index.html"id = "home">HOME</a>
+    </div>
 
 	 <div class="cont">
 	 	<div class="post">
+	 		<img src="css/avatar.png" class="avatar">
+	 		<P id="style">Username: Fifi</P>
+	 		<br/>
+	 		<table>
+	 			<tbody>
+	 				<tr class="dark">
+	 					<td>
+	 						<p id="style">Number of questions asked: 5</p>
+	 					</td>
+	 					
+	 				</tr>
+	 			</tbody>
+	 		</table>
+	 		<br/>
+	 		<table>
+	 			<tbody>
+	 				<tr class="light">
+	 					<td>
+	 						<p id="style">Number of answers given: 3</p>
+	 					</td>
+	 					
+	 				</tr>
+	 			</tbody>
+	 		</table>
+	 		
+	 	</div>
+	 	<div class="quests">
 
 		 	<table>
 		 		<tbody>
@@ -30,21 +56,25 @@
 		 				</td>
 		 				
 		 			</tr>
-		 			<th><a href="post_quests.html">The list of recent questions asked by the user</a></th>
-		 			<tr class="light">
-		 				<td>
-		 					<p>Use test driven deployment</p>
-		 				</td>
-		 			</tr>
-		 			<tr class="dark">
-		 				<td>
-		 					<p>uninstall chrome then reinstall</p>
-		 				</td>
-		 			</tr>
 		 		</tbody>
 		 	</table>
-		 	
-		 </div>
+		 	<div class="quest">
+		 		<table>
+		 			<tbody>
+		 				<th><a href="post_quests.html">The list of recent questions asked by the user</a></th>
+		 				<tr class="light">
+		 					<td>
+		 						<p>Use test driven deployment</p>
+		 					</td>
+		 				</tr>
+		 				<tr class="dark">
+		 					<td>
+		 						<p>uninstall chrome then reinstall</p>
+		 					</td>
+		 				</tr>
+		 			</tbody>
+		 		</table>
+		 	 </div>
 
 		 <div class="footer">
 		 	<p> Stackoverflow-lite</p>
